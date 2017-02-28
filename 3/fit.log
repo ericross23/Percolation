@@ -1,0 +1,51 @@
+
+
+*******************************************************************************
+Thu Nov 17 14:24:30 2016
+
+
+FIT:    data read from 'ant.csv'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) =c* x^a
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Thu Nov 17 14:26:00 2016
+
+
+FIT:    data read from 'ant.csv'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c * x ** a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             a            
+   0 3.3119864987e+11  0.00e+00 3.67e+04  1.000000e+00  1.000000e+00
+  18 3.5815360439e+03 -8.45e-01 3.67e-02  1.184249e+00  3.335434e-01
+
+After 18 iterations the fit converged.
+final sum of squares of residuals : 3581.54
+rel. change during last iteration : -8.45318e-006
+
+degrees of freedom    (FIT_NDF)                        : 9998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.598519
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.358225
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 1.18425          +/- 0.005145     (0.4344%)
+a               = 0.333543         +/- 0.0005026    (0.1507%)
+
+correlation matrix of the fit parameters:
+                c      a      
+c               1.000 
+a              -0.998  1.000 
