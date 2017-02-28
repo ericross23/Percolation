@@ -1,0 +1,145 @@
+
+
+*******************************************************************************
+Fri Nov 18 11:28:07 2016
+
+
+FIT:    data read from 'circumference.csv'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c * x ** a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             a            
+   0 3.0590311203e+11  0.00e+00 3.67e+04  1.000000e+00  1.000000e+00
+   8 1.8754927301e+04 -4.43e-02 3.67e-02  3.265105e+00  5.082604e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 18754.9
+rel. change during last iteration : -4.43216e-007
+
+degrees of freedom    (FIT_NDF)                        : 9998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.36962
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.87587
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 3.26511          +/- 0.003166     (0.09697%)
+a               = 0.50826          +/- 0.0001108    (0.02181%)
+
+correlation matrix of the fit parameters:
+                c      a      
+c               1.000 
+a              -0.998  1.000 
+
+
+*******************************************************************************
+Fri Nov 18 15:24:56 2016
+
+
+FIT:    data read from 'epi55circumference.csv'
+        format = z
+        x range restricted to [-0.500000 : 199.500]
+        #datapoints = 199
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c * x ** a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             a            
+   0 9.2516037701e+04  0.00e+00 6.37e+01  3.265105e+00  5.082604e-01
+   4 9.5688879308e+03 -8.70e-01 6.37e-03  5.245661e+00  5.075334e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 9568.89
+rel. change during last iteration : -8.69723e-006
+
+degrees of freedom    (FIT_NDF)                        : 197
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.96944
+variance of residuals (reduced chisquare) = WSSR/ndf   : 48.573
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 5.24566          +/- 0.463        (8.827%)
+a               = 0.507533         +/- 0.01827      (3.6%)
+
+correlation matrix of the fit parameters:
+                c      a      
+c               1.000 
+a              -0.995  1.000 
+
+
+*******************************************************************************
+Fri Nov 18 15:26:47 2016
+
+
+FIT:    data read from 'epi70circumference.csv'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = c * x ** a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   c             a            
+   0 1.9987394053e+08  0.00e+00 1.27e+03  5.245661e+00  5.075334e-01
+   4 2.9833456302e+05 -2.26e-04 1.27e+02  3.766042e+00  4.949477e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 298335
+rel. change during last iteration : -2.25987e-009
+
+degrees of freedom    (FIT_NDF)                        : 9998
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.46255
+variance of residuals (reduced chisquare) = WSSR/ndf   : 29.8394
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+c               = 3.76604          +/- 0.01398      (0.3713%)
+a               = 0.494948         +/- 0.0004248    (0.08583%)
+
+correlation matrix of the fit parameters:
+                c      a      
+c               1.000 
+a              -0.998  1.000 
+
+
+*******************************************************************************
+Fri Nov 18 15:31:18 2016
+
+
+FIT:    data read from 'epi55circumference.csv'
+        format = z
+        #datapoints = 1645
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+	g(x) = c * x ** a
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             c            
+   0 2.1520762397e+06  0.00e+00 2.64e+02  4.949477e-01  3.766042e+00
+   5 4.3546155538e+05 -8.18e-02 2.64e-02  6.006835e-01  2.362477e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 435462
+rel. change during last iteration : -8.17513e-007
+
+degrees of freedom    (FIT_NDF)                        : 1643
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 16.2801
+variance of residuals (reduced chisquare) = WSSR/ndf   : 265.041
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.600683         +/- 0.006464     (1.076%)
+c               = 2.36248          +/- 0.1066       (4.513%)
+
+correlation matrix of the fit parameters:
+                a      c      
+a               1.000 
+c              -0.998  1.000 
